@@ -3,7 +3,7 @@ package algorithmLearning;
 import java.util.Scanner;
 
 /**
- * 斐波那契数列
+ * 斐波那契数列 1 1 2 3 5 ....
  */
 public class FibonacciSequence{
     public static void main(String[] args){
@@ -11,12 +11,13 @@ public class FibonacciSequence{
         int n = 0;
         while(cin.hasNextInt()){
             n = cin.nextInt();
-            System.out.println(fibonacci(n));
+            System.out.println(fibonacciByRecursion(n));
         }
 
     }
 
-    public static int fibonacci(int n){
+    //迭代解法
+    public static int fibonacciByIteration(int n){
         if(n==0){
             return 0;
         }
@@ -32,5 +33,17 @@ public class FibonacciSequence{
             numf2 = sum ;
         }
         return sum;
+    }
+
+    //递归解法
+    public static int fibonacciByRecursion(int n){
+        if(n <= 0){
+            return 0;
+        }
+        if(n == 1){
+            return 1;
+        }
+
+        return fibonacciByRecursion(n-1)+fibonacciByRecursion(n-2);
     }
 }
