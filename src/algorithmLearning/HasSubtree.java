@@ -14,17 +14,17 @@ package algorithmLearning;
  （2）如果tree1为空，tree2为空，说明匹配。
  */
 public class HasSubtree {
-    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+    public boolean hasSubtree(TreeNode root1,TreeNode root2) {
         boolean result = false;
         if(root1!=null&&root2!=null) {
             if (root1.val == root2.val) {
                 result = DoesTree1HaveTree2(root1, root2);
             }
             if (!result) {
-                result = HasSubtree(root1.left, root2);
+                result = hasSubtree(root1.left, root2);
             }
             if (!result) {
-                result = HasSubtree(root1.right, root2);
+                result = hasSubtree(root1.right, root2);
             }
         }
         return result;
