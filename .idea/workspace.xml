@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fc930d1-8dfe-4179-9e96-c9799e7dd641" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithmLearning/RandomListNodeClone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/algorithmLearning/TreeConvert.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codeRespository.iws" />
@@ -26,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TreeMirror.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithmLearning/TreeMirror.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PrintMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithmLearning/PrintMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,15 +88,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomListNodeClone.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RandomListNodeClone.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithmLearning/RandomListNodeClone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36893204">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding>
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1673#1674#0" expanded="true" />
+                <element signature="e#1665#1666#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeConvert.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithmLearning/TreeConvert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14757282">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/algorithmLearning/VerifySquenceOfBST.java" />
         <option value="$PROJECT_DIR$/src/algorithmLearning/FindPath.java" />
         <option value="$PROJECT_DIR$/src/algorithmLearning/RandomListNodeClone.java" />
+        <option value="$PROJECT_DIR$/src/algorithmLearning/TreeConvert.java" />
       </list>
     </option>
   </component>
@@ -821,12 +822,12 @@
       <workItem from="1505700504940" duration="1697000" />
       <workItem from="1505795958084" duration="983000" />
       <workItem from="1505827287345" duration="2172000" />
-      <workItem from="1505873810117" duration="1072000" />
+      <workItem from="1505873810117" duration="1830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22377000" />
+    <option name="totallyTimeSpent" value="23135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1247,12 +1248,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithmLearning/RandomListNodeClone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36893204">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding>
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithmLearning/TreeConvert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14757282">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
